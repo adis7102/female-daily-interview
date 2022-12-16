@@ -1,0 +1,17 @@
+@import '../../styles/fonts';
+@import '../../styles/colors';
+
+html, body {
+  font-family: 'SFpro-Regular' !important;
+  padding: 0;
+  margin: 0;
+}
+
+h1, h2, h3, p {
+  margin: 0 !important;
+  color: $color-main-black;
+}
+
+.layout {
+  padding: 50px 40px;
+}

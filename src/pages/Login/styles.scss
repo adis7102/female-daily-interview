@@ -1,0 +1,24 @@
+@import '../../styles/colors';
+
+.login {
+  display: grid;
+  place-items: center;
+
+  &-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+    height: 300px;
+    border: 1px solid $color-main-gray;
+    padding: 20px 20px;
+
+    h1 {
+      margin-bottom: 100px !important;
+    }
+    
+    .input-email {
+      margin-bottom: 50px;
+    }
+  }
+}

@@ -1,0 +1,22 @@
+.list-product {
+  padding: 0 25%;
+
+  .search-wrap {
+    display: flex;
+    margin: 20px 0;
+
+    button {
+      margin-left: 50px;
+    }
+  }
+
+  &-table {
+    width: 850px;
+
+    &-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+  }
+}
